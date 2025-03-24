@@ -25,7 +25,9 @@ module.exports = {
                 config.password_config.minNumbers,
             )),
         body('username').isAlphanumeric().withMessage('username chi dc chu va so'),
-        body('role').isIn(constants.USER_PERMISSION).withMessage('role khong hop le')
+        body('role').isIn(constants.USER_PERMISSION).withMessage('role khong hop le'),
+        body('fullName').isAlpha('en-US', { ignore: ' ' }).withMessage('fullName chỉ được chứa chữ cái'),
+        body('avatarUrl').isURL().withMessage('avatarUrl phải là một URL hợp lệ')
     ],
     validator_middleware: function (req, res, next) {
         let errors = validationResult(req);

@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "67e107872d09592b78f15361"
+  },
+  "username": "admin3",
+  "password": "$2b$10$AJup8puk0J9sGVKfFIGTQuraGKlOvTFmn.Prb0CB1jb3xyc/xlqsW",
+  "email": "admin3@example.com",
+  "fullName": "Le Van C",
+  "avatarUrl": "https://example.com/admin3-avatar.jpg",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67d7e99b0c94ce0b433540cc"
+  },
+  "createdAt": {
+    "$date": "2025-03-24T07:19:35.970Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T07:19:35.970Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e107d12d09592b78f15366"
+  },
+  "username": "user24t3",
+  "password": "$2b$10$Sx7sAPdQ6VKIcsbG0Z2Kouw5DZwJovgrbpPV8T7f/LG2zE.eQ84G2",
+  "email": "user24t3@example.com",
+  "fullName": "Le Van D",
+  "avatarUrl": "https://example.com/user24t3-avatar.jpg",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67d7cf8a776196dd5669d86b"
+  },
+  "createdAt": {
+    "$date": "2025-03-24T07:20:49.348Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T07:20:49.348Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e107f62d09592b78f1536d"
+  },
+  "username": "mod24t3",
+  "password": "$2b$10$ZRsZSl7tLLITrgqpJ48tmev.0IPC7T8N/iF6q1A0dhLD1QMSHfHWK",
+  "email": "mod24t3@example.com",
+  "fullName": "Le Van E",
+  "avatarUrl": "https://example.com/user24t3-avatar.jpg",
+  "status": false,
+  "loginCount": 0,
+  "role": {
+    "$oid": "67e103370a2439b5933d1e3a"
+  },
+  "createdAt": {
+    "$date": "2025-03-24T07:21:26.359Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T07:21:26.359Z"
+  },
+  "__v": 0
+}]
